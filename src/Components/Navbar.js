@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import logo from '../Assets/Images/logo.png';
 import { HiMenuAlt1 } from 'react-icons/hi';
+import { BiSun } from 'react-icons/bi';
+import { BsMoon } from 'react-icons/bs'
 
-const Navbar = () => {
+const Navbar = ({ darkMode, handleMode }) => {
 
   const [color, setColor] = useState(false);
   const [active, setActive] = useState(false);
@@ -41,6 +43,11 @@ const Navbar = () => {
             </li>
             <li>
               <a className='font-semibold uppercase text-white lg:hover:text-primary' href="#FIXME" title='Contact' target="_self">Contact</a>
+            </li>
+            <li>
+              <button className='text-white' onClick={handleMode}>
+                {darkMode ? <BsMoon title='Activate lightmode' /> : <BiSun title='Activate darkmode' />}
+              </button>
             </li>
           </ul>
         </div>

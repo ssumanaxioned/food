@@ -3,14 +3,15 @@ import Button from './Button'
 import pizza from '../Assets/Images/pizza.jpg'
 
 const About = () => {
+
   return (
-    <div className="py-20 bg-white">
+    <div className="py-20 bg-white dark:bg-primary-alt">
       <div className="wrapper">
         <div className="flex flex-wrap justify-between">
           <div className="basis-full md:basis-[45%] space-y-4">
-            <span className='font-bold text-secondary-200 text-2xl xl:text-3xl'>About Us</span>
-            <h3 className='font-bold text-secondary-300 text-3xl xl:text-4xl'>WELCOME TO MAESTRO PIZZINI</h3>
-            <p className='font-light text-secondary-100 text-base xl:text-lg'>
+            <span className='font-bold text-secondary-200 text-2xl dark:text-white xl:text-3xl'>About Us</span>
+            <h3 className='font-bold text-secondary-300 dark:text-white text-3xl xl:text-4xl'>WELCOME TO MAESTRO PIZZINI</h3>
+            <p className='font-light text-secondary-100 dark:text-white text-base xl:text-lg'>
               Investigationes demonstraverunt lectores legere me lius quod ii
               legunt saepius. Claritas est etiam processus dynaus, quise
               sequitur mutationem consuetudium lectorum.

@@ -9,7 +9,7 @@ import PriceContent from './PriceContent';
 
 const Prices = () => {
   return (
-    <div className='py-20 bg-white'>
+    <div className='py-20 bg-white dark:bg-primary-alt'>
       <div className='wrapper'>
         <ul className='flex flex-wrap justify-between items-center'>
           <PriceContent image={pizza1} price={50} />

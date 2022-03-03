@@ -3,7 +3,7 @@ import React from 'react'
 const PriceContent = ({ image, price }) => {
   return (
     <>
-      <li className='sm:basis-[48%] md:basis-[45%] xl:basis-[30%] mb-5 space-y-4 text-center xl:space-y-5'>
+      <li className='sm:basis-[48%] md:basis-[45%] xl:basis-[30%] mb-5 space-y-4 text-center dark:text-white xl:space-y-5'>
         <figure>
           <img className='w-3/5 xl:w-4/5 mx-auto' src={image} alt="pizza" />
         </figure>

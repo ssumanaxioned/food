@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./src/**/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'class',
   theme: {
     fontFamily: {
       'sans': 'Montserrat, sans-serif',
@@ -16,6 +17,7 @@ module.exports = {
       },
       colors: {
         'primary': '#ff454f',
+        'primary-alt': '#0c111c',
         'secondary': {
           '100': '#8b8b8b',
           '200': '#252525b3',
